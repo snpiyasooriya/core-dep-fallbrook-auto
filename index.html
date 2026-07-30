@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fallbrook Auto in Houston — oil changes, brake service, and engine repair." />
+    <title>Fallbrook Auto | Houston Auto Repair</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Fallbrook Auto home"><span>F</span> FALLBROOK <em>AUTO</em></a>
+      <nav aria-label="Main navigation"><a href="#services">Services</a><a href="#about">Why us</a><a href="#contact">Contact</a></nav>
+      <a class="header-call" href="tel:2816539011">281-653-9011</a>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Houston's neighborhood garage</p>
+          <h1>KEEPING HOUSTON<br /><i>ON THE ROAD.</i></h1>
+          <p class="lead">Straight answers. Skilled repairs. Your car is in capable hands at Fallbrook Auto.</p>
+          <div class="actions"><a class="button button-primary" href="tel:2816539011">Call for service <span>→</span></a><a class="button button-quiet" href="#services">Our services</a></div>
+        </div>
+        <div class="hero-mark"><span>EST.</span><strong>F</strong><span>HOUSTON, TX</span></div>
+      </section>
+      <section class="strip" aria-label="Service highlights"><p>Honest work</p><b>✦</b><p>Quality parts</p><b>✦</b><p>Local expertise</p><b>✦</b><p>Reliable repairs</p></section>
+      <section class="services" id="services">
+        <div class="section-intro"><p class="eyebrow">What we do</p><h2>THE CARE YOUR<br />CAR DESERVES.</h2><p>From routine maintenance to the repairs that cannot wait, our team keeps your vehicle dependable and ready for the road.</p></div>
+        <div class="service-grid">
+          <article><div class="number">01</div><div class="icon">◒</div><h3>Oil changes</h3><p>Fresh oil, a new filter, and a quick check-over to help your engine run clean and smooth.</p></article>
+          <article><div class="number">02</div><div class="icon">◉</div><h3>Brake service</h3><p>Confident stopping starts with thorough brake inspections, pads, rotors, and repairs done right.</p></article>
+          <article><div class="number">03</div><div class="icon">⌁</div><h3>Engine repairs</h3><p>When the warning light comes on, we diagnose the problem clearly and get you back on the road.</p></article>
+        </div>
+      </section>
+      <section class="about" id="about"><div><p class="eyebrow">The Fallbrook way</p><h2>NO RUNAROUND.<br /><i>JUST GOOD WORK.</i></h2></div><p>We believe car care should feel simple. Tell us what your vehicle needs, and we’ll explain the work, answer your questions, and treat your car like it’s our own.</p></section>
+      <section class="contact" id="contact"><p class="eyebrow">Ready when you are</p><h2>LET'S GET YOU<br />MOVING.</h2><a class="phone" href="tel:2816539011">281.653.9011</a><p class="location">Serving Houston, Texas</p><a class="button button-light" href="tel:2816539011">Call Fallbrook Auto <span>→</span></a></section>
+    </main>
+    <footer><a class="brand" href="#top"><span>F</span> FALLBROOK <em>AUTO</em></a><p>Houston, Texas · 281-653-9011</p><p>© <span id="year"></span> Fallbrook Auto</p></footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </body>
+</html>
